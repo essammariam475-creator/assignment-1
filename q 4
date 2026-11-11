@@ -1,0 +1,13 @@
+
+import 'dart:io';
+
+void main() {
+  print("Enter your age:");
+  int age = int.parse(stdin.readLineSync()!);
+
+  if (age >= 21) {
+    print("Eligible for voting");
+  } else {
+    print("Not eligible for voting");
+  }
+}
